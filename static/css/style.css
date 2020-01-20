@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 
+/* body - start */
 body {
     font-family: "Bangers", sans-serif;
 }
+/* body - end */
 
+/* footer - start */
 footer {
     background-color: rgb(221, 221, 221);
     padding-bottom: 10px;
@@ -19,7 +22,9 @@ footer span {
     margin-bottom: 0;
     font-size: 0.8em;
 }
+/* footer - end */
 
+/* nav bar - start */
 #logo {
     text-decoration: none;
 }
@@ -50,8 +55,11 @@ footer span {
     background-color: rgb(201, 49, 49);
     color: rgb(201, 197, 201);
 }
+/* nav bar - end */
 
+/* banner img - start */
 #bannerimg {
     margin: 0%;
     padding: 0%;
 }
+/* banner img - end */
