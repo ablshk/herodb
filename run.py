@@ -14,6 +14,10 @@ mongo = PyMongo(app)
 def home():
     return render_template("index.html", classlist=mongo.db.classlist.find())
 
+@app.route("/guide")
+def guide():
+    return render_template("guide.html")
+
 @app.route("/newentry", methods=['POST'])
 def addhero():
     heroes = mongo.db.classlist
