@@ -1,0 +1,41 @@
+{% extends "main.html" %}
+{% block content %}
+<div class="container">
+    <h3>Edit Hero</h3>
+    <form action="{{ url_for('updatehero', hero_id=hero._id) }}" method="POST">
+        <div class="form-group">
+            <label>First Name</label>
+            <input id="first_name" name="first_name" class="form-control" type="text"
+                value="{{hero.first_name}}">
+        </div>
+        <div class="form-group">
+            <label>Last Name</label>
+            <input id="last_name" name="last_name" class="form-control" type="text" value="{{hero.last_name}}">
+        </div>
+        <div class="form-group">
+            <label>Hero Name</label>
+            <input id="hero_name" name="hero_name" class="form-control" type="text"
+                value="{{hero.hero_name}}">
+        </div>
+        <div class="form-group">
+            <label>Class</label>
+            <input id="class" name="class" class="form-control" type="text"
+                value="{{hero.class}}">
+        </div>
+        <div class="form-group">
+            <label>Rank</label>
+            <input id="rank" name="rank" class="form-control" type="text"
+                value="{{hero.rank}}">
+        </div>
+        <div class="form-group">
+            <label>Abilities</label>
+            <input id="abilities" name="abilities" class="form-control" type="text"
+                value="{{hero.abilities}}">
+        </div>
+        
+        <button type="submit" class="btn btn-success"><i class="fa fa-floppy-o" aria-hidden="true"></i> Save Changes</button>
+        <a href="{{ url_for('deletehero', hero_id=hero._id) }}" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</a>
+    </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+body {
+    font-family: "Bangers", sans-serif;
+}
+
+footer {
+    background-color: rgb(221, 221, 221);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
+
+footer span {
+    display: block;
+    color: darkslategrey;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 0.8em;
+}
+
+#logo {
+    text-decoration: none;
+}
+
+#logo:hover {
+    color: rgb(59, 59, 245);
+    background-color: yellow;
+}
+
+#addnew:hover {
+    background-color: burlywood;
+    color: yellow;
+    cursor: pointer;
+}
+
+#guide:hover {
+    background-color: rgb(109, 109, 204);
+    color: rgb(255, 112, 112);
+}
+
+#contact:hover {
+    background-color: rgb(33, 189, 33);
+    color: indigo;
+    cursor: pointer;
+}
+
+#home:hover {
+    background-color: rgb(201, 49, 49);
+    color: rgb(201, 197, 201);
+}
+
+#bannerimg {
+    margin: 0%;
+    padding: 0%;
+}

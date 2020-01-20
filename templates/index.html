@@ -1,0 +1,29 @@
+{% extends "main.html" %}
+{% block content %}
+<img src="static/images/opm2.jpg" id="bannerimg" class="container-fluid">
+<br>
+<div class="container-fluid">
+    <div class="row justify-content-center justify-content-sm-start">
+        {% for hero in classlist %}
+        <div class="card card-width col-xs-12 col-sm-6 col-lg-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">{{hero.hero_name}}</h5>
+                <a href="{{ url_for('edithero', hero_id=hero._id) }}"  class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Edit
+                    Hero</a>
+                <br>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">First name: {{hero.first_name}}</li>
+                    <li class="list-group-item">Last name: {{hero.last_name}}</li>
+                    <li class="list-group-item">Hero name: {{hero.hero_name}}</li>
+                    <li class="list-group-item">Class: {{hero.class}}</li>
+                    <li class="list-group-item">Rank: {{hero.rank}}</li>
+                    <li class="list-group-item">Abilities: {{hero.abilities}}</li>
+                </ul>
+                <br>
+                <br>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
