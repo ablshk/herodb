@@ -48,5 +48,5 @@ This project makes use of the following technologies:
 * MongoDB’s connection and functionality has been tested and checked manually through the app, MongoDB.Atlas, as well as through the IDE.
 
 # Deployment
-Here is a link to the deployed live site:  
+Here is a link to the deployed live site: https://herodbci.herokuapp.com/
 The site has been hosted on Heroku.
