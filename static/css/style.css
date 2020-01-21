@@ -63,3 +63,25 @@ footer span {
     padding: 0%;
 }
 /* banner img - end */
+
+/* guide page - start */
+.guidetext {
+    color: darkslategrey;
+}
+
+#guideabout {
+    color: rgb(199, 233, 47);
+}
+
+#guideaddhero {
+    color: rgb(101, 109, 221);
+}
+
+#guideedithero {
+    color: rgb(69, 160, 69);
+}
+
+#guidedeletehero {
+    color: rgb(221, 40, 40);
+}
+/* guide page - end */
