@@ -16,9 +16,13 @@ Wireframing was done using Adobe XD.  Here is a link to the wireframes: [wirefra
 
 ### Features
 **Add a hero** - Allows people to populate the app with information about new heroes.
+
 **Edit a hero** - Allows people to contribute by editing/correcting information about heroes in the app.
+
 **Delete a hero** - Allows people to delete irrelevant content.
+
 **Look up information on characters** - People can look up information on heroes from One Punch Man.
+
 **Guide** - There is a guide available on the website with instructions on how the app can be used.
 
 ### Future Feature Plans
