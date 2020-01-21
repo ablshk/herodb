@@ -38,6 +38,7 @@ This project makes use of the following technologies:
 * Font Awesome Icon Library v4.7
 * GitHub / Git versioning
 * MongoDB
+* Heroku
 
 # Testing
 * Responsiveness has been tested using Google Chrome developer tools.
